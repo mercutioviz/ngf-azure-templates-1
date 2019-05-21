@@ -422,10 +422,10 @@
         ],
         "probes": [
           {
-            "name": "TinaProbe",
+            "name": "CGF-HA-Probe",
             "properties": {
               "protocol": "Tcp",
-              "port": 691,
+              "port": 65500,
               "intervalInSeconds": 5,
               "numberOfProbes": 2
             }
